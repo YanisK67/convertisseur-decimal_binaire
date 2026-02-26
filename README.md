@@ -39,3 +39,7 @@ Ce dépôt contient **deux scripts Python** autour des nombres flottants :
 Depuis un terminal à la racine du dépôt :
 
 python nomFich.py
+
+## Auteur
+---
+Yanis Khelif (Lycée Notre Dame Providence- Enghien les bains)
