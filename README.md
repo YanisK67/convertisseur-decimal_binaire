@@ -8,18 +8,18 @@ Ce dépôt contient **deux scripts Python** autour des nombres flottants :
 
 ---
 
-## 📁 Contenu du dépôt
+## Contenu du dépôt
 
 - `TP_Convertisseur_decimal_binaire_yk.py`  
   Convertisseur **IEEE 754 simple précision (32 bits)** + exercices :
   - conversion décimal → binaire IEEE754 (manuelle)
   - conversion binaire IEEE754 → décimal
-  - version alternative avec `struct`
+  - version  avec `struct`
   - comparaison de flottants à tolérance
-  - détection NaN / Infini / Normal
+  - détection des NaN / Infini / Normal
   - estimation de **bits perdus** sur une opération
 
-- `TP_Precision_yk.py`  
+- `TP_Precision.py`  
   TP sur la **précision des calculs flottants** :
   - différence absolue
   - différence relative
@@ -29,17 +29,13 @@ Ce dépôt contient **deux scripts Python** autour des nombres flottants :
 
 ---
 
-## ✅ Prérequis
-
-- Python **3.8+** (ou toute version récente)
-- Bibliothèques utilisées : uniquement la bibliothèque standard (`math`, `struct`, `decimal`)
+## Bibliothèques utilisées : 
+- uniquement la bibliothèque standard (`math`, `struct`, `decimal`)
 
 ---
 
-## ▶️ Exécution
+## Exécution
 
 Depuis un terminal à la racine du dépôt :
 
-### 1) Convertisseur IEEE 754 + exercices
-```bash
-python TP_Convertisseur_decimal_binaire_yk.py
+python nomFich.py
